@@ -9,12 +9,12 @@
 [Working with Time Series Data in Pandas](working_with_time_series_in_pandas.ipynb)
 
 ## ◽ Data Preparation
-### Prepare
+### ▫️ Prepare
 - The most common activity in preparing time series data is setting dates to datetime types using `pd.to_datetime`.
 
 - Another common activity is looking at the frequency of the data and gaps in time or null values.
 
-### Data Splitting
+### ▫️ Data Splitting
 Splitting time series data into train, test, and validate sets is a little trickier than with previous data we have looked at. Because the data points have an order to them, we **cannot** simply assign each point randomly to train, validate, or test.
 
 Ideally all splits should contain one season's worth of data. There are several methods we can use to split our time series data:
