@@ -39,9 +39,9 @@ def prep_ops(df):
     
     # Fill missing values
     # Replace Wind missing value with mean
-    df = df.fillna({"Wind":168.814173})
+    df = df.fillna({"Wind":0})
     # Replace Solar missing value with mean
-    df = df.fillna({"Solar":89.2586952})
+    df = df.fillna({"Solar":0})
     # Replace Wind + Solar missing value with Wind + Solar
     df = df.fillna({"Wind+Solar":(df.Wind + df.Solar)})
     
