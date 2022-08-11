@@ -3,7 +3,16 @@
 # 🔆 🄲🄻🄰🅂🅂 🄳🄴🄼🄾🅂 & 🅁🄴🅂🄾🅄🅁🄲🄴🅂
 
 ## ◽ Data Acquisition
-[Acquire Lesson](acquire_lesson.ipynb)
+### ▫️ REST API
+- **REST**, referring to *Representational State Transfer*, is a set of guidelines for structuring urls. Often times you will encounter the phrase RESTful to describe web sites or web services that follow **REST** guidelines.
+
+    [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
+    
+- **API** stands for *Application Programming Interface*. It is a way that either developers interact with a program, or one program interacts with another.
+
+- **JSON** stands for *JavaScript Object Notation*. All JSON is technically valid JavaScript code; JSON is very commonly used as a data representation format, and is commonly used as a data interchange format. In fact, if you were to open up a jupyter notebook in a plain text editor, you would see a big JSON object. JSON data structures consist of arrays (analogous to lists in python), objects (dictionaries), strings, booleans, and numbers.
+
+    [Acquire Lesson](acquire_lesson.ipynb)
 
 ## ◽ Working with Time Series Data
 [Working with Time Series Data in Pandas](working_with_time_series_in_pandas.ipynb)
