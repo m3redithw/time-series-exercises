@@ -15,8 +15,25 @@
     [Acquire Lesson](acquire_lesson.ipynb)
 
 ## ◽ Working with Time Series Data
-###  ▫️ `strfrtime` Format Cheat Sheet
-| Units   | Specifier   | Description                                                    |
+### ▫️ `dt`
+The `.dt` accessor can be used to access various properties of a date. Some of the more common ones are listed here, and you can reference the pandas documentation for a full list.
+
+| **Property**   | **Description**   | 
+|:--------|:------------|
+| year | The year of the datetime |
+| month | The month of the datetime |
+| day | The days of the datetime | 
+| hour | The hour of the datetime | 
+| week | The week ordinal of the year |
+| weekday | The number of the day of the week with Monday=0, Sunday=6 |
+| weekday_name | The name of the day in a week (ex: Friday) |
+| quarter | Quarter of the date: Jan-Mar = 1, Apr-Jun = 2, etc.
+
+###  ▫️ `strfrtime`
+`strftime` method and give date string to format the date in a custom way.
+
+#### `strfrtime` Format Cheat Sheet
+| **Units**   | **Specifier**   | **Description**                                                    |
 |:--------|:------------|:---------------------------------------------------------------|
 | seconds | %S          | Second of the minute (00..60)                                  |
 | minutes | %M          | Minute of the hour (00..59)                                    |
@@ -41,6 +58,7 @@
 |         | %c          | The preferred local date and time representation               |
 |         | %x          | Preferred representation for the date alone, no time           |
 |         | %X          | Preferred representation for the time alone, no date           |
+**Reference**: [datetime — Basic date and time types](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-behavior)
 
 [Working with Time Series Data in Pandas](working_with_time_series_in_pandas.ipynb)
 
