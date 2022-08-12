@@ -82,6 +82,8 @@ Ideally all splits should contain one season's worth of data. There are several 
 ## ◽ Exploratory Analysis
 The primary use case for Time Series EDA techniques is when we have a single continuous variable sampled over time and we want to identify **trend** and **seasonality**.
 
+[Time Series EDA](time_series_eda_lesson.ipynb)
+    
 ***
 # 🔆 🄴🅇🄴🅁🄲🄸🅂🄴🅂
 
