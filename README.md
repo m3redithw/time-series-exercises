@@ -83,7 +83,17 @@ Ideally all splits should contain one season's worth of data. There are several 
 The primary use case for Time Series EDA techniques is when we have a single continuous variable sampled over time and we want to identify **trend** and **seasonality**.
 
 [Time Series EDA](time_series_eda_lesson.ipynb)
-    
+
+## ◽ Forecasting
+- **Last bbserved value**
+- **Simple average**
+- **Moving average**
+- **Holt's Linear Trend**
+- **Previous Cycle**
+
+![](time_series_models.png)
+
+[Modeling](modeling_lesson.ipynb)
 ***
 # 🔆 🄴🅇🄴🅁🄲🄸🅂🄴🅂
 
@@ -100,3 +110,6 @@ The primary use case for Time Series EDA techniques is when we have a single con
 
 ## ◽ Exploratory Analysis
 [Explore](explore.ipynb)
+
+## ◽ Forecasting
+[Model](model.ipynb)
